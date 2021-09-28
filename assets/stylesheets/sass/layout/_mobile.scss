@@ -1,0 +1,12 @@
+@use "../abstracts/colors" as c;
+
+body{
+    background-color: c.$white;
+}
+
+.square__layout{
+    width: 340px;
+    //background-color: lightsteelblue;
+    margin: 60px auto;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+@use "../abstracts/colors" as c;
+
+.title{
+    p{
+        margin-bottom: 30px;
+    }
+}
+
+.rating__card{
+    max-width: 500px;
+    height: 80px;
+    margin: 15px auto;
+    border-radius: 8px;
+    background-color: c.$light-grayish-magenta;
+}
+
+.rating__card__stars{
+    padding-top: 15px;
+}

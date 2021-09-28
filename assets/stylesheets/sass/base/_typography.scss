@@ -1,0 +1,42 @@
+@use "../abstracts/colors" as c;
+
+*{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: c.$very-dark-magenta;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+p{
+    color: c.$dark-grayish-magenta;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+h2{
+    color: c.$very-dark-magenta;
+    font-weight: 700;
+}
+
+h3{
+    margin: 5px auto;
+}
+
+.testimony__user{
+    color: c.$light-grayish-magenta;
+    font-weight: 700;
+}
+
+.testimony__verified{
+    color: c.$soft-pink;
+    font-weight: 400;
+}
+
+.user__text{
+    color: c.$light-grayish-magenta;
+    font-size: .9rem;
+}
