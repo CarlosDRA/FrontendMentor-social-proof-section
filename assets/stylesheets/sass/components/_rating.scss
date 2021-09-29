@@ -17,3 +17,20 @@
 .rating__card__stars{
     padding-top: 15px;
 }
+
+@media screen and(min-width: 1200px) {
+    .rating__card{
+        width: 450px;
+        height: 60px;
+        margin: 0;
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        
+        .rating__card__stars{
+            padding: 0;
+            margin-left: 40px;
+            align-self: center;
+        }
+    }
+}
