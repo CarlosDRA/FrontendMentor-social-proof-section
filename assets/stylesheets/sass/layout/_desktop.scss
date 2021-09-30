@@ -1,4 +1,16 @@
 @media screen and(min-width: 1200px) {
+    .bg__pattern-top{
+        width: 40vw;
+        top: -8vw;
+        left: 0;
+    }
+
+    .bg__pattern-bottom{
+        width: 1000px;
+        bottom: -100px;
+        right: 0;
+    }
+    
     .square__layout{
         margin-top: 100px;
         width: 80vw;

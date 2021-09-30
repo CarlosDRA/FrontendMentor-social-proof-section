@@ -2,10 +2,29 @@
 
 body{
     background-color: c.$white;
+    position: relative;
+}
+
+.bg__pattern-top{
+    width: 100vw;
+    position: absolute;
+    top: -25vw;
+    left: 0;
+}
+
+.bg__pattern-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+    right: 0px;
 }
 
 .square__layout{
     width: 340px;
     margin: 60px auto;
     text-align: center;
+}
+
+.testimonies__container{
+    margin-top: 50px;   
 }
