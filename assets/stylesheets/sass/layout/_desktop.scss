@@ -1,4 +1,8 @@
 @media screen and(min-width: 1200px) {
+    body{
+        overflow-y: hidden;
+    }
+    
     .bg__pattern-top{
         width: 40vw;
         top: -8vw;
@@ -6,8 +10,8 @@
     }
 
     .bg__pattern-bottom{
-        width: 1000px;
-        bottom: -100px;
+        width: 70vw;
+        bottom: -18vw;
         right: 0;
     }
     
