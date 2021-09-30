@@ -76,7 +76,8 @@ body {
 
   .bg__pattern-top {
     width: 40vw;
-    top: -8vw;
+    height: 30vw;
+    top: -15vw;
     left: 0;
   }
 
@@ -87,7 +88,7 @@ body {
   }
 
   .square__layout {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 80vw;
     position: relative;
   }
